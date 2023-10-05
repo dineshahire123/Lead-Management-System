@@ -13,12 +13,14 @@ Phone
 Employee ID
 Sales Person List Page:
 
+
 View a list of Sales Persons
 Edit Sales Person details
 Delete Sales Person from the list
 Create a new Sales Person from the list page
 
 Lead Management
+
 Lead Fields:
 
 Name
@@ -26,6 +28,8 @@ Organization
 Email
 Phone
 Source of lead
+
+
 Lead Activities:
 
 Record interactions with leads
@@ -59,7 +63,7 @@ Usage :
 With help of this application we can perform the crud operations on the sales person like edit, delete, create, and read the sales persons Information.
 In the lead entity we also perform crud operations like update delete, create and read the leads Information.
 
-Contributing
+Contributing :
 We welcome contributions! If you'd like to contribute to this project, please follow these guidelines:
 
 Fork the repository.
