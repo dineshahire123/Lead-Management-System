@@ -1,0 +1,30 @@
+@model IEnumerable<LeadManagementSystem.Models.LeadActivity>
+
+<h2>Lead Activity List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Lead</th>
+            <th>Interaction Type</th>
+            <th>Details</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var leadActivity in Model)
+        {
+            <tr>
+                <td>@leadActivity.Lead.Name</td>
+                <td>@leadActivity.InteractionType</td>
+                <td>@leadActivity.Details</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@leadActivity.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@leadActivity.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-primary">Create New</a>

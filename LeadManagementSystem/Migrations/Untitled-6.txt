@@ -1,0 +1,4 @@
+
+
+INSERT INTO SalesPeople (FirstName, LastName, Email, Phone, EmployeeId)
+VALUES ('John', 'Doe', 'johndoe@example.com', '123-456-7890', 'EMP123');

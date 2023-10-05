@@ -1,0 +1,3 @@
+ALTER TABLE LeadActivities
+DROP COLUMN InteractionDateTime;
+
